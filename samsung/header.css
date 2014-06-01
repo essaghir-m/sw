@@ -1,0 +1,592 @@
+#header1{
+  width: 980px;
+  height: 100px;
+
+  margin: 0px auto;
+  position: relative;
+}
+#header{
+  width: 100%;
+   height: 100px;
+   position: relative;
+}
+
+
+#menu-top{
+  width: 980px;
+  height: 40px;
+
+
+}
+
+
+
+
+
+#menu-bottom{
+  width: 980px;
+  height: 60px;
+
+
+  position: relative;
+}
+ul{
+  padding: 0px;
+  list-style: none;
+  position: absolute;
+}
+a{
+  text-decoration: none;
+}
+#menu-top ul{
+  right: 0px;
+  top:10px;
+}
+
+#menu-top li{
+  position: relative;
+  float: left;
+  padding: 0px 10px;
+  border-left: 1px solid #000000;
+}
+#menu-top a{
+  font-size: 13px;
+  color: #000000;
+
+}
+#menu-top li:first-child{
+   border-left: none;
+}
+#menu-top li:nth-child(4){
+   border-left: none;
+   top:2px;
+}
+#menu-top a:hover{
+  color: #3399FF;
+  text-decoration: underline;
+}
+#img{
+  position: absolute;
+     top:20px;
+     left:30px;
+}
+#list{
+  right:0px;
+
+}
+
+
+#list li{
+  position:relative;
+  float: left;
+  padding-left:5px;
+  padding-right:5px;
+  padding-top:8px;
+  padding-bottom:31px;
+}
+
+#list a{
+  color: #000000;
+  font-family: Arial Black;
+}
+#list > li:hover {
+  background-color: #000000;
+  border-top-left-radius: 10px;
+   border-top-right-radius: 10px;
+}
+
+
+#list li:hover  a{
+    color: #FFFFFF;
+}
+#list a:hover{
+  color: #0099CC!important;
+  text-decoration: underline;
+}
+
+#list li:hover:nth-child(3){
+  padding-bottom: 12px;
+  border-radius: 10px;
+}
+#list li:hover:nth-child(5){
+  padding-bottom: 12px;
+  border-radius: 10px;
+}
+#list input{
+  position: relative;
+  top:2px;
+  padding-left: 16px;
+  outline: none;
+  border-radius: 5px;
+}
+#image{
+  position: absolute;
+  left:10px;
+  top:15px;
+
+}
+#list li:hover:last-child{
+  background-color: transparent;
+
+}
+#consommateur{
+  width: 700px;
+  height: 320px;
+  background-color: #000000;
+  position: absolute;
+  z-index: 1;
+  top:60px;
+  left:-60px;
+  border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+#list li div{
+  display: none;
+}
+#list li:hover > div{
+  display: block;
+}
+#s-menu{
+ width: 980px;
+  height: 400px;
+  background-color: white;
+  position: absolute;
+  z-index: 1;
+  top:60px;
+  left:-225px;
+  border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+#assistance{
+  width: 600px;
+  height: 220px;
+  background-color: #000000;
+  position: absolute;
+  z-index: 1;
+  top:60px;
+  left:-225px;
+  border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+#consommateur ul{
+  top:75px;
+}
+
+#consommateur li li{
+  padding:0px;
+  float: none;
+}
+#consommateur p{
+  color:#BBBBBB;
+  font-size: 12px;
+  font-weight: bold;
+  text-decoration: underline;
+  padding-top:35px;
+}
+#p1{
+  padding-left: 5px;
+}
+
+#consommateur p:hover{
+  cursor: pointer;
+  color: #3399FF;
+}
+
+#consommateur li:nth-child(3):hover{
+  padding-bottom: 0px;
+}
+#consommateur li:nth-child(5):hover{
+  padding-bottom: 0px;
+}
+#consommateur a{
+  font-size: 10px;
+  color:#3399FF!important;
+}
+#por{
+  top:-60px;
+  position:absolute;
+left:10px;
+}
+#image2{
+  position: absolute;
+  top:-60px;
+  right:-2px;
+}
+#consommateur ul{
+  padding-left: 15px;
+}
+
+
+#p2{
+  text-decoration: none!important;
+  padding-left: 12px;
+}
+#p3{
+  text-decoration: none!important;
+  padding-left: 14px;
+}
+#image3{
+  position: absolute;
+  top: -60px;
+  left: 18px;
+}
+#image4{
+  position: absolute;
+  top:-60px;
+  right: -12px;
+}
+#p4{
+  padding-left: 14px;
+  text-decoration: none!important;
+
+}
+#image5{
+  position: absolute;
+  top: -60px;
+  left:25px;
+}
+#p5{
+  padding-left: 14px;
+  text-decoration: none!important;
+
+}
+#image6{
+  position: absolute;
+  top:-60px;
+  left :20px;
+}
+#p6{
+  padding-left: 14px;
+}
+#s-menu p{
+  color: #FF0000;
+  font-weight: bold;
+  font-size: 20px;
+
+}
+#s-menu ul li{
+  float: left;
+  padding:0px;
+}
+#meditel{
+    position: absolute;
+   
+}
+#meditel li{
+    position:relative;
+    left: 80px;
+}
+#meditel a:hover{
+   text-decoration: underline; 
+}
+#s-menu a{
+  font-size: 10px;
+color: black!important;
+  
+ 
+}
+#s-menu li:nth-child(3):hover{
+  padding-bottom: 0px;
+}
+#s-menu a:hover{
+  text-decoration: underline;
+  color:black!important;
+}
+#s-menu li:before{
+    content: "";
+    width: 6px;
+    height:10px;
+    position : absolute;
+    /*background-color: #00FF33;*/
+      background-image: url(images/fleche_rouge_bis.png);
+    left : -15px;
+    top : 6px;
+}
+
+
+
+#p8{
+cursor:pointer;
+padding-left: 65px;
+background-image: none!important;
+}
+
+#img1{
+  position: absolute;
+  top:35px;
+  left:0px;
+}
+#p9{
+    padding-top: 140px;
+    padding-left: 65px;
+}
+#u2 li{
+  left:80px;  
+}
+#img2{
+    position:  absolute;
+    left: 2px;
+    top:170px;
+}
+#u3 li{
+    position: relative;
+    left:400px;
+  }
+  #u3 li:first-child:before,#u4 li:first-child:before{
+   background-image: none!important; 
+  }
+  #s-menu input{
+    position: absolute;
+    left: 375px;
+    top:270px;
+    width:305px;
+    border-radius:0px!important ;
+  }
+
+  #image10{
+    position: absolute;
+    top:277px;
+    left:650px;
+  }
+  #image11{
+    position: absolute;
+    top:272px;
+    left:430px;
+  }
+#u4 li{
+ left:750px;   
+}
+#u4{
+top:10px;    
+}
+
+
+#u3{
+    position:  absolute;
+    top:10px;
+}
+#u3 li:first-child{
+    background-image: none!important;
+    
+}
+#img4{
+    position: absolute;
+    top: 35px;
+    left:320px;
+}
+#img5{
+    position: absolute;
+    top: 35px;
+    left: 670px;
+}
+#im{
+position: absolute;
+top:180px;
+left:680px;    
+}
+#imm{
+ position: absolute;
+ top:180px;
+ left:378px;   
+}
+#meditel a:hover{
+ text-decoration: underline;   
+}
+#ss-menu{
+    width:220px;
+    height:500px;
+    background-color: black;
+    position: absolute;
+    z-index: 1;
+    top: 60px;
+   
+}
+
+#as{
+    position: absolute;
+top:19px;
+   
+   
+    
+}
+#as a:hover {
+    text-decoration: none;
+    color: white!important;
+  
+}
+#as li{
+    position: relative;
+padding: 0px;
+ float:none;
+ line-height: 30px;
+
+}
+#as a{
+    font-size: 10px;
+    width:170px;
+    height:30px;
+    display:block;
+    margin-left: 50px;
+ 
+
+    
+}
+#as li:nth-child(3){
+    padding-bottom: 0px!important;
+    
+}
+#as li:nth-child(5){
+    padding-bottom: 0px!important;
+    
+}
+#as li:before{
+    content: "+";
+    width: 20px;
+    height: 20px;
+    position: absolute;
+
+    left: 15px;
+    color:white;
+    top:2px;
+    
+}
+#as li:nth-child(9):before,#as li:nth-child(10):before,#as li:nth-child(11):before,#as li:nth-child(12):before,#as li:nth-child(13):before,#as li:nth-child(14):before{
+    
+    color: transparent;
+
+}
+#as li:hover{
+    background-color: red;
+}
+#ss-menu1{
+    width:200px;
+    height:450px;
+    position: absolute;
+    background-color: black;
+
+    left: -200px;
+    top:0px;
+   
+}
+#ss-menu2{
+    width: 200px;
+    height: 150px;
+    position: absolute;
+    background-color: black;
+    top: 0px;
+    left: -200px;
+}
+#ss-menu3{
+    width: 200px;
+    height: 150px;
+    position: absolute;
+    background-color: black;
+    top: 0px;
+    left: -200px;
+}
+#ss-menu4{
+    width: 200px;
+    height: 150px;
+    position: absolute;
+    background-color: black;
+    top: 0px;
+    left: -200px;
+}
+#ss-menu5{
+    width: 200px;
+    height: 150px;
+    position: absolute;
+    background-color: black;
+    top: 0px;
+    left: -200px;
+}
+#ss-menu6{
+    width: 200px;
+    height: 50px;
+    position: absolute;
+    background-color: black;
+    top: 0px;
+    left: -200px;
+}
+#ss-menu7{
+    width: 200px;
+    height: 250px;
+    position: absolute;
+    background-color: black;
+    top: 0px;
+    left: -200px;
+}
+#ss-menu8{
+    width: 250px;
+    height: 300px;
+    position: absolute;
+    background-color: black;
+    top: 0px;
+    left: -200px;
+}
+#u5{
+    position: absolute;
+    padding: 0px;
+    
+}
+#u5 li{
+    float: none;
+  line-height: 25px;
+  
+}
+#u5 li:nth-child(9):before,#u5 li:nth-child(10):before,#u5 li:nth-child(11):before,#u5 li:nth-child(12):before,#u5 li:nth-child(13):before,#u5 li:nth-child(14):before{
+    color: white;
+    
+}
+#u5 li:before{
+  left: 10px;  
+}
+#u6 li{
+float: none;
+ position: relative;   
+}
+#as li:nth-child(3):hover,#as li:nth-child(5):hover{
+    border-radius: 0px!important;
+}
+#as li:nth-child(14):hover{
+    background-color: red;
+}
+#u5{
+    position:  absolute;
+    padding:0px;
+}
+#u5 li{
+    position: relative;
+  padding-left: 50px;
+  
+    }
+    #u5 a{
+        width:100px;
+        height:30px;
+        display: block;
+        
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

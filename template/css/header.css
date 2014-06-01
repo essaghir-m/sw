@@ -1,0 +1,16 @@
+header #menu{
+    position: absolute; right: 10px;
+}
+header #menu li{
+    float: left;    
+}
+header #menu a{
+    text-decoration: none; height: 50px; padding-left: 10px; padding-right: 10px; margin-left: 5px;
+    line-height: 50px; display: block; color: #fff;
+}
+header #menu a.active{
+    background: #271d1e;
+}
+header #menu a:hover{
+    background: #fa3748;   
+}

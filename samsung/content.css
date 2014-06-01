@@ -1,0 +1,31 @@
+#content1{
+  width: 980px;
+  height: 600px;
+  
+  margin: 0px auto;
+  padding-top: 100px;
+}
+#content2{
+  width:980px;
+  height: 400px;
+  background-color: #CC0033;
+}
+#c1{
+  width:250px;
+ height: 400px;
+ background-color: #666666;
+}
+#c2{
+  width:400px;
+ height: 400px;
+ background-color: #66FFCC;
+}
+#c3{
+  width:330px;
+ height: 400px;
+ background-color: #CC6600;
+}
+.c{
+  float: left;
+}
+

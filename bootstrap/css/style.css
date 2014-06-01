@@ -1,0 +1,82 @@
+*{
+	margin: 0px auto; padding: 0px;
+}
+ul{
+	list-style: none;
+}
+header{
+	width: 100%; height: 90px; background: #F0F0EE; 
+}
+#cover{
+	width: 100%; height: 500px; background: #66B8E3 url("../images/devices.png") no-repeat center;
+	position: absolute; top: 90px; left: 0px;
+}
+#video_background {
+position: absolute;
+bottom: 0px;
+left: 0px; width: 100%; height: 100%;
+min-width: 100%;
+min-height: 100%;
+width: auto;
+height: auto;
+z-index: -1000;
+overflow: hidden;
+}
+footer{
+	width: 100%; height: 55px; background: #383832; position: absolute; bottom: 0px;
+}
+.logo{background: url('../images/logo.png') no-repeat;
+	width: 200px; height: 80px;  position: absolute; top: 20px;
+} 
+.container{
+	position: relative;
+}
+.ulmenu{
+	position: absolute; bottom: -65px; right: 30px; margin-bottom: 0px;
+}
+.ulmenu li{
+	float: left;
+}
+.ulmenu li a{
+	padding: 10px 15px; display: block; text-decoration: none; color: #999;
+}
+
+
+#cover nav a{
+	display: block; width: 10px; height: 10px; border-radius: 50%; background: #4D4D4D; float: left; margin-right: 5px;
+
+}
+#cover nav{
+	position: absolute; top: 470px; left: 600px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 640px) {
+  .ulmenu li{
+  	display: block; float: none;
+  }
+}

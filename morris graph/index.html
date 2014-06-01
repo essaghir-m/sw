@@ -1,0 +1,74 @@
+<html>
+
+<head>
+        <link rel="stylesheet" href="morris.css" type="text/css" media="all">
+        <script type="text/javascript" src="jquery.js" ></script>
+        <script type="text/javascript" src="morris.js" ></script>
+        <script type="text/javascript" src="raphael-min.js" ></script>
+        <script type="text/javascript" src="morris.min.js"></script>
+
+        <style>
+        div{
+          width: 800px;
+          height:200px;
+          margin: 0px auto;
+          margin-bottom: 30px;
+        }
+
+        </style>
+</head>
+<body>
+
+<div id="a"></div>
+<div id="b"></div>
+<div id="c"></div>
+    <script>
+        $(function(){
+
+        new Morris.Line({
+          element:'a',
+          data:[
+              {annee:'2001',value:'34444'},
+              {annee:'2005',value:'546556'},
+              {annee:'2009',value:'5534'},
+              {annee:'2011',value:'4343'},
+              {annee:'2013',value:'43565'},
+          ],
+          xkey:'annee',
+          ykeys:['value'],
+          labels:['ceci est un test']
+        });
+
+        new Morris.Area({
+          element:'b',
+          data:[
+              {annee:'2001',value:'34444'},
+              {annee:'2005',value:'546556'},
+              {annee:'2009',value:'5534'},
+              {annee:'2011',value:'4343'},
+              {annee:'2013',value:'43565'},
+          ],
+          xkey:'annee',
+          ykeys:['value'],
+          labels:['ceci est un test']
+        });
+
+         new Morris.Bar({
+          element:'c',
+          data:[
+              {annee:'2001',value:'34444'},
+              {annee:'2005',value:'546556'},
+              {annee:'2009',value:'5534'},
+              {annee:'2011',value:'4343'},
+              {annee:'2013',value:'43565'},
+          ],
+          xkey:'annee',
+          ykeys:['value'],
+          labels:['ceci est un test']
+        });
+
+
+        });
+    </script>
+</body>
+</html>
